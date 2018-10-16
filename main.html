@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FLY MODEL</title>
+
+  <!-- Reset -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style-main.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <!-- Logo Title -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <!-- Quick Menu  -->
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Nanum+Gothic|Playfair+Display" rel="stylesheet">
+
+  <script src="js/jquery-3.3.1.min.js"></script>  <!-- 쿼리를 쓰겠다고 선언 -->
+  <script>
+    $(document).ready(function(){  /* 이벤트 사용하려면 on */
+      $('.search-bar > input').on('focus', function(){  /* $(적용할 대상).on('적용할 이벤트', 이벤트 발생했을때 기능) */
+        $('.search-bar').css('background', '#777');
+      })
+      $('.search-bar > input').on('blur', function(){
+        $('.search-bar').css('background', '#e7e7e7');
+      })
+    })
+  </script>
+
+</head>
+<body>
+
+  <!-- Wrap -->
+  <div id="wrap">
+
+    <!-- Header -->
+    <div id="header">
+
+        <!-- Quick-menu -->
+        <div class="quick-menu">
+
+          <!-- Container -->
+          <div class="container">
+
+          <!-- Link -->
+          <div class="quick-link">
+            <ul>
+              <li>
+                <a href="#">로그인</a>
+              </li>
+              <li>
+                <a href="#">회원가입</a>
+              </li>
+              <li>
+                <a href="#">장바구니</a>
+              </li>
+              <li>
+                <a href="#">마이페이지</a>
+              </li>
+              <li>
+                <a href="#">NOTICE</a>
+              </li>
+              <li>
+                <a href="#">Q & A</a>
+              </li>
+              <li>
+                <a href="#">REVIEW</a>
+              </li>
+              <li>
+                <a href="#">MODEL</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Link -->
+
+          <!-- Search -->
+          <div class="search">
+
+            <!-- Search-bar -->
+            <div class="search-bar">
+              <input type="text" name="search-keyword">
+              <i class="fas fa-search"></i>
+            </div>
+            <!-- Search-bar -->
+
+            <!-- Latest-view -->
+            <div class="latest-view">
+              <i class="fas fa-eye"></i>
+            </div>
+            <!-- Latest-view -->
+
+            <!-- Cart-list -->
+            <div class="cart-list">
+              <i class="far fa-star"></i>
+            </div>
+            <!-- Cart-list -->
+
+            <!-- Desktop-link -->
+            <div class="desktop-link">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <!-- Desktop-link -->
+          </div>
+          <!-- Search -->
+        </div>
+        </div>
+        <!-- Quick-menu -->
+
+        <!-- Logo -->
+        <div class="container">
+          <div class="header-logo">
+            <div class="logo-title">
+              <h1>FLYMODEL</h1>
+            </div>
+
+            <div class="logo-btn">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Logo -->
+
+        <!-- Category -->
+        <div class="category">
+          <div class="container">
+          <ul>
+            <li><a href="#">BEST</a></li>
+            <li><a href="#">TOP</a></li>
+            <li><a href="#">OUTER</a></li>
+            <li><a href="#">DRESS</a></li>
+            <li><a href="#">PANTS</a></li>
+            <li><a href="#">SKIRT</a></li>
+            <li><a href="#">ACC</a></li>
+            <li><a href="#">BAG</a></li>
+            <li><a href="#">SHOES</a></li>
+            <li><a href="#">SUMMER</a></li>
+            <li><a href="#">SALE</a></li>
+            <li><a href="#">ONLY YOU</a></li>
+          </ul>
+          </div>
+        </div>
+        <!-- Category -->
+
+    </div>
+    <!-- Header -->
+
+    <!-- Contents -->
+    <div id="contents">
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Banner -->
+        <div class="banner">
+
+          <!-- Banner Left -->
+          <div class="banner-left">
+
+            <!-- Left Left -->
+            <div class="left-left">
+              <div class="left-top">
+                <img src="img/main/1.png" alt="Banner">
+              </div>
+              <div class="left-bottom">
+                <img src="img/main/2.png" alt="Banner">
+              </div>
+            </div>
+            <!-- Left Left -->
+
+            <!-- Left Right -->
+            <div class="left-right">
+              <div class="right-top">
+                <img src="img/main/3.png" alt="Banner">
+              </div>
+              <div class="right-bottom">
+                <img src="img/main/4.png" alt="Banner">
+              </div>
+            </div>
+            <!-- Left Right -->
+
+          </div>
+          <!-- Banner Left -->
+
+          <!-- Banner Right -->
+          <div class="banner-right">
+            <img src="img/main/5.png" alt="Banner">
+          </div>
+          <!-- Banner Right -->
+
+        </div>
+        <!-- Banner -->
+
+        <!-- Banner Under -->
+        <div class="banner-under">
+
+          <!-- Banner Under Left -->
+          <div class="banner-under-left">
+            <img src="img/main/6.jpg" alt="Banner">
+          </div>
+          <!-- Banner Under Left -->
+
+          <!-- Banner Under Right -->
+          <div class="banner-under-right">
+
+            <!-- Under Right Top -->
+            <div class="under-right-top">
+
+              <!-- Top Left -->
+              <div class="top-left">
+                <img src="img/main/7.jpg" alt="Banner">
+              </div>
+              <!-- Top Left -->
+
+              <!-- Top Right -->
+              <div class="top-right">
+                <img src="img/main/8.jpg" alt="Banner">
+              </div>
+              <!-- Top Right -->
+
+            </div>
+            <!-- Under Right Top -->
+
+            <!-- Under Right Bottom -->
+            <div class="under-right-bottom">
+              <img src="img/main/1.gif" alt="Banner">
+            </div>
+            <!-- Under Right Bottom -->
+
+          </div>
+          <!-- Banner Under Right -->
+
+        </div>
+        <!-- Banner Under -->
+
+        <!-- Best Item -->
+        <div class="best-item">
+
+          <!-- Best Text -->
+          <div class="best-text">
+            <h1> week's best item <h1>
+          </div>
+          <!-- Best Text -->
+
+          <!-- Best Top -->
+          <div class="best-top">
+
+            <!-- Top 1 -->
+            <div class="top1">
+
+              <!-- Top1 Top -->
+              <div class="top1-top">
+                <a href="#"><img src="img/best/best1.gif" alt="Best Item"></a>
+              </div>
+              <!-- Top1 Top -->
+
+              <!-- Top1 Bottom -->
+              <div class="top1-bottom">
+                <div class="top1-bottom-top">
+                  <a href="#">오트-pt</a>
+                </div>
+                <div class="top1-bottom-bottom">
+                  <ul>
+                    <li name="price">27,000원</li>
+                    <li name="review">리뷰 : 126</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Top1 Bottom -->
+
+            </div>
+            <!-- Top 1 -->
+
+            <!-- Top 2 -->
+            <div class="top2">
+
+              <!-- Top2 Top -->
+              <div class="top2-top">
+                <a href="#"><img src="img/best/best2.gif" alt="Best Item"></a>
+              </div>
+              <!-- Top2 Top -->
+
+              <!-- Top2 Bottom -->
+              <div class="top2-bottom">
+                <div class="top2-bottom-top">
+                  <a href="#">페닌-nb</a>
+                </div>
+                <div class="top2-bottom-bottom">
+                  <ul>
+                    <li name="price">22,000원</li>
+                    <li name="review">리뷰 : 58</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Top2 Bottom -->
+
+            </div>
+            <!-- Top 2 -->
+
+            <!-- Top 3 -->
+            <div class="top3">
+              <!-- Top3 Top -->
+              <div class="top3-top">
+                <a href="#"><img src="img/best/best3.gif" alt="Best Item"></a>
+              </div>
+              <!-- Top3 Top -->
+
+              <!-- Top3 Bottom -->
+              <div class="top3-bottom">
+                <div class="top3-bottom-top">
+                  <a href="#">카린트-knit</a>
+                </div>
+                <div class="top3-bottom-bottom">
+                  <ul>
+                    <li name="price">15,000원</li>
+                    <li name="review">리뷰 : 158</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Top3 Bottom -->
+
+            </div>
+            <!-- Top 3 -->
+
+            <!-- Top 4 -->
+            <div class="top4">
+
+              <!-- Top4 Top -->
+              <div class="top4-top">
+                <a href="#"><img src="img/best/best4.gif" alt="Best Item"></a>
+              </div>
+              <!-- Top4 Top -->
+
+              <!-- Top4 Bottom -->
+              <div class="top4-bottom">
+                <div class="top4-bottom-top">
+                  <a href="#">퍼블릭-nb</a>
+                </div>
+                <div class="top4-bottom-bottom">
+                  <ul>
+                    <li name="price">18,000원</li>
+                    <li name="review">리뷰 : 126</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Top4 Bottom -->
+
+            </div>
+            <!-- Top 4 -->
+
+          </div>
+          <!-- Best Top -->
+
+          <!-- Best Bottom -->
+          <div class="best-bottom">
+
+            <!-- Bottom 1 -->
+            <div class="bottom1">
+
+              <!-- Bottom1 Top -->
+              <div class="bottom1-top">
+                <a href="#"><img src="img/best/best5.gif" alt="Best Item"></a>
+              </div>
+              <!-- Bottom1 Top -->
+
+              <!-- Bottom1 Bottom -->
+              <div class="bottom1-bottom">
+                <div class="bottom1-bottom-top">
+                  <a href="#">모노크라운-knit</a>
+                </div>
+                <div class="bottom1-bottom-bottom">
+                  <ul>
+                    <li name="price">11,000원</li>
+                    <li name="review">리뷰 : 458</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Bottom1 Bottom -->
+
+            </div>
+            <!-- Bottom 1 -->
+
+            <!-- Bottom 2 -->
+            <div class="bottom2">
+
+              <!-- Bottom2 Top -->
+              <div class="bottom2-top">
+                  <a href="#"><img src="img/best/best6.gif" alt="Best Item"></a>
+              </div>
+              <!-- Bottom2 Top -->
+
+              <!-- Bottom2 Bottom -->
+              <div class="bottom2-bottom">
+                <div class="bottom2-bottom-top">
+                  <a href="#">프로스트-pt</a>
+                </div>
+                <div class="bottom2-bottom-bottom">
+                  <ul>
+                    <li name="price">19,000원</li>
+                    <li name="review">리뷰 : 1,158</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Bottom2 Bottom -->
+
+            </div>
+            <!-- Bottom 2 -->
+
+            <!-- Bottom 3 -->
+            <div class="bottom3">
+              <!-- Bottom3 Top -->
+              <div class="bottom3-top">
+                  <a href="#"><img src="img/best/best7.gif" alt="Best Item"></a>
+              </div>
+              <!-- Bottom3 Top -->
+
+              <!-- Bottom3 Bottom -->
+              <div class="bottom3-bottom">
+                <div class="bottom3-bottom-top">
+                  <a href="#">누벨바그-ops</a>
+                </div>
+                <div class="bottom3-bottom-bottom">
+                  <ul>
+                    <li name="price">24,000원</li>
+                    <li name="review">리뷰 : 221</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Bottom3 Bottom -->
+
+            </div>
+            <!-- Bottom 3 -->
+
+            <!-- Bottom 4 -->
+            <div class="bottom4">
+
+              <!-- Bottom4 Top -->
+              <div class="bottom4-top">
+                  <a href="#"><img src="img/best/best8.gif" alt="Best Item"></a>
+              </div>
+              <!-- Bottom4 Top -->
+
+              <!-- Bottom4 Bottom -->
+              <div class="bottom4-bottom">
+                <div class="bottom4-bottom-top">
+                  <a href="#">160센치-pt</a>
+                </div>
+                <div class="bottom4-bottom-bottom">
+                  <ul>
+                    <li name="price">25,000원</li>
+                    <li name="review">리뷰 : 310</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Bottom4 Bottom -->
+
+            </div>
+            <!-- Bottom 4 -->
+          </div>
+          <!-- Best Bottom -->
+
+          <!-- Best Btn -->
+          <div class="best-btn">
+
+          </div>
+          <!-- Best Btn -->
+
+        </div>
+        <!-- Best Item -->
+
+        <!-- New -->
+        <div class="new">
+
+          <!-- New-text -->
+          <div class="new-text">
+            <h1>NEW ARRIVAL</h1>
+            <h2>/매일 새로운 신상 업데이트/</h2>
+          </div>
+          <!-- New-text -->
+
+          <!-- New-item -->
+          <div class="new-item">
+
+            <!-- New1 -->
+            <div class="new1">
+
+              <!-- New1-1 -->
+              <div class="new1-1">
+                <!-- New1-1 Top -->
+                <div class="new1-1-top">
+                    <a href="#"><img src="img/new/1.gif" alt="new item"></a>
+                </div>
+                <!-- New1-1 Top -->
+
+                <!-- New1-1 Bottom -->
+                <div class="new1-1-bottom">
+                  <div class="new1-1-bottom-top">
+                    <a href="#">테르트르-knit</a>
+                  </div>
+                  <div class="new1-1-bottom-bottom">
+                    <ul>
+                      <li name="explain">몽글몽글_소프트한 촉감이 매력적이에요!
+                                        이번 시즌 가장 베이직하게, 데일리하게 입을 수 있는
+                                        디자인으로 유행없이 깔끔한 스타일링을 연출해드립니다-
+                                        밑단 트임 덕분에 쉐입이 더욱 유연하고
+                                        적당히 루즈한 핏이라 여리여리한 무드!! 매치활용성 good!</li>
+                      <li name="price">22,000원</li>
+                      <li name="review">리뷰 : 0</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New1-1 Bottom -->
+              </div>
+              <!-- New1-1 -->
+
+              <!-- New1-2 -->
+              <div class="new1-2">
+                <!-- New1-2 Top -->
+                <div class="new1-2-top">
+                  <a href="#"><img src="img/new/2.gif" alt="new item"></a>
+                </div>
+                <!-- New1-2 Top -->
+
+                <!-- New1-2 Bottom -->
+                <div class="new1-2-bottom">
+                  <div class="new1-2-bottom-top">
+                    <a href="#">티라미슈-pt</a>
+                  </div>
+                  <div class="new1-2-bottom-bottom">
+                    <ul>
+                      <li name="price">32,000원</li>
+                      <li name="review">리뷰 : 10</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New1-2 Bottom -->
+              </div>
+              <!-- New1-2 -->
+
+              <!-- New1-3 -->
+              <div class="new1-3">
+                <!-- New1-3 Top -->
+                <div class="new1-3-top">
+                  <a href="#"><img src="img/new/3.gif" alt="new item"></a>
+                </div>
+                <!-- New1-3 Top -->
+
+                <!-- New1-3 Bottom -->
+                <div class="new1-3-bottom">
+                  <div class="new1-3-bottom-top">
+                    <a href="#">코스타리카-tee</a>
+                  </div>
+                  <div class="new1-3-bottom-bottom">
+                    <ul>
+                      <li name="explain">베이직한 아이템으로 캐주얼하게 입기좋아요!
+                                        루즈 핏이 슬림한 바디실루엣을 만들어주고
+                                        바스트라인에 레터링프린트를 넣어 밋밋함 없이 깔끔한
+                                        포인트가 되어 데일리로 즐길 수 있는 아이템 : )
+                                        꾸민 듯 안 꾸민 듯- 자연스럽고 네추럴하게 즐겨주세요!!</li>
+                      <li name="price">12,000원</li>
+                      <li name="review">리뷰 : 3</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New1-3 Bottom -->
+              </div>
+              <!-- New1-3 -->
+
+            </div>
+            <!-- New1 -->
+
+            <!-- New2 -->
+            <div class="new2">
+
+              <!-- New2-1 -->
+              <div class="new2-1">
+
+                <!-- New2-1 Top -->
+                <div class="new2-1-top">
+                  <a href="#"><img src="img/new/4.gif" alt="new item"></a>
+                </div>
+                <!-- New2-1 Top -->
+
+                <!-- New2-1 Bottom -->
+                <div class="new2-1-bottom">
+                  <div class="new2-1-bottom-top">
+                    <a href="#">리턴즈-pt</a>
+                  </div>
+                  <div class="new2-1-bottom-bottom">
+                    <ul>
+                      <li name="explain">코튼원단으로 모던함이 묻어나는 일자 핏 팬츠-
+                                        다리가 길어보이는 반하이라인에 편안한 착용감을 주는
+                                        허리밴딩이 안 쪽에 들어가있어 핏을 망치지않아요!
+                                        밑단 트임디테일로 밋밋함을 줄이고 트렌디함을 up : )
+                                        소프트한 무드 크림베이지 / 베이직&데일리 블랙</li>
+                      <li name="price">25,000원</li>
+                      <li name="review">리뷰 : 0</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New2-1 Bottom -->
+
+              </div>
+              <!-- New2-1 -->
+
+              <!-- New2-2 -->
+              <div class="new2-2">
+
+                <!-- New2-2 Top -->
+                <div class="new2-2-top">
+                  <a href="#"><img src="img/new/5.gif" alt="new item"></a>
+                </div>
+                <!-- New2-2 Top -->
+
+                <!-- New2-2 Bottom -->
+                <div class="new2-2-bottom">
+                  <div class="new2-2-bottom-top">
+                    <a href="#">[플모메이드♥]베네치아-tee<br>(주문폭주/ 여유있는주문 부탁드려요)</a>
+                  </div>
+                  <div class="new2-2-bottom-bottom">
+                    <ul>
+                      <li name="explain">내가 찾던 리얼 데일리 티! must have item : )
+                                        여리여리 루즈 핏 + 촉촉하고 소프트한 텍스쳐!
+                                        얼굴 빛을 화사하게 톤 업! 해주는 색감들과
+                                        차분하고 모던한 무드가 담긴 색감들로 구성되었어요!!
+                                        넥라인, 밑단 트임의 마감처리까지 신경 쓴 하이퀄리티 T-</li>
+                      <li name="price">17,000원</li>
+                      <li name="review">리뷰 : 0</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New2-2 Bottom -->
+
+              </div>
+              <!-- New2-2 -->
+
+              <!-- New2-3 -->
+              <div class="new2-3">
+
+                <!-- New2-3 Top -->
+                <div class="new2-3-top">
+                  <a href="#"><img src="img/new/6.gif" alt="new item"></a>
+                </div>
+                <!-- New2-3 Top -->
+
+                <!-- New2-3 Bottom -->
+                <div class="new2-3-bottom">
+                  <div class="new2-3-bottom-top">
+                    <a href="#">하이드파크-sk</a>
+                  </div>
+                  <div class="new2-3-bottom-bottom">
+                    <ul>
+                      <li name="explain">가을하면 생지! 블루데님으로 모던함이 up-
+                                        캐주얼한 듯 감성적인 무드가 담겨있는 스커트에요.
+                                        레드나 브라운 계열의 칼라감과 함께 매치하면
+                                        꾸민 듯 안 꾸민 듯 감각적인 스타일링이 완성된답니다-
+                                        다리가 길어보이는 하이핏 + 텐션감 good! 쫀쫀한 원단 : )</li>
+                      <li name="price">21,000원</li>
+                      <li name="review">리뷰 : 0</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New2-3 Bottom -->
+
+              </div>
+              <!-- New2-3 -->
+
+            </div>
+            <!-- New2 -->
+
+            <!-- New3 -->
+            <div class="new3">
+
+              <!-- New3-1 -->
+              <div class="new3-1">
+
+                <!-- New3-1 Top -->
+                <div class="new3-1-top">
+                  <a href="#"><img src="img/new/7.gif" alt="new item"></a>
+                </div>
+                <!-- New3-1 Top -->
+
+                <!-- New3-1 Bottom -->
+                <div class="new3-1-bottom">
+                  <div class="new3-1-bottom-top">
+                    <a href="#">[플모메이드♥]크로와상-mtm</a>
+                  </div>
+                  <div class="new3-1-bottom-bottom">
+                    <ul>
+                      <li name="explain">내 옷장 필수템. 모든 디테일을 하나하나 계산하여 제작했어요!
+                                        소매너비와 소매기장, 시보리가 떨어지는 라인까지!!
+                                        맨투맨_ 하면 느껴지는 그 편안한 무드 뿐 만 아니라
+                                        신경 쓴 듯 모던하게 착용할 수 있을 거에요 : )
+                                        매 시즌 플모메이드와 함께 해주세요♥</li>
+                      <li name="price">25,000원</li>
+                      <li name="review">리뷰 : 310</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New3-1 Bottom -->
+
+              </div>
+              <!-- New3-1 -->
+
+              <!-- New3-2 -->
+              <div class="new3-2">
+
+                <!-- New3-2 Top -->
+                <div class="new3-2-top">
+                  <a href="#"><img src="img/new/8.gif" alt="new item"></a>
+                </div>
+                <!-- New3-2 Top -->
+
+                <!-- New3-2 Bottom -->
+                <div class="new3-2-bottom">
+                  <div class="new3-2-bottom-top">
+                    <a href="#">고티에-ops</a>
+                  </div>
+                  <div class="new3-2-bottom-bottom">
+                    <ul>
+                      <li name="explain">고급스럽고 페미닌한 실루엣이 연출되는
+                                        롱 기장 랩원피스! 톡톡하게 짜여진 원단이에요!!
+                                        안정감있는 랩핑으로 브이넥 파임이 부담스럽지않아
+                                        더욱 세련된 스타일링을 완성할 수 있답니다 : )
+                                        특별히 무언가를 더하지않아도 룩의 완성도가 충분해요-</li>
+                      <li name="price">33,000원</li>
+                      <li name="review">리뷰 : 0</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New3-2 Bottom -->
+
+              </div>
+              <!-- New3-2 -->
+
+              <!-- New3-3 -->
+              <div class="new3-3">
+
+                <!-- New3-3 Top -->
+                <div class="new3-3-top">
+                  <a href="#"><img src="img/new/9.gif" alt="new item"></a>
+                </div>
+                <!-- New3-3 Top -->
+
+                <!-- New3-3 Bottom -->
+                <div class="new3-3-bottom">
+                  <div class="new3-3-bottom-top">
+                    <a href="#">vender-knit</a>
+                  </div>
+                  <div class="new3-3-bottom-bottom">
+                    <ul>
+                      <li name="price">21,000원</li>
+                      <li name="review">리뷰 : 0</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- New3-3 Bottom -->
+
+              </div>
+              <!-- New3-3 -->
+
+            </div>
+            <!-- New3 -->
+
+          </div>
+          <!-- New-item -->
+
+        </div>
+        <!-- New -->
+
+      </div>
+      <!-- Container -->
+
+    </div>
+    <!-- Contents -->
+
+    <!-- Footer -->
+    <div id="footer">
+
+        <!-- Footer Top -->
+        <div class="footer-top">
+
+          <!-- Container -->
+          <div class="container">
+
+            <!-- Top-Left -->
+            <div class="top-left">
+              <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">이용안내</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i> 제휴문의</a></li>
+              </ul>
+            </div>
+            <!-- Top-Left -->
+
+          <!-- Top-Right -->
+          <div class="top-right">
+            <div class="footer-top-logo">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <!-- Top-Right -->
+
+          </div>
+          <!-- Container -->
+
+        </div>
+        <!-- Footer Top -->
+
+        <!-- Footer Middle -->
+        <div class="footer-middle">
+
+          <!-- Container -->
+          <div class="container">
+
+            <!-- Middle-Tel -->
+            <div class="middle-tel">
+              <ul>
+                <li>CUSTOMER CENTER</li>
+                <li><i class="fas fa-microphone"></i> 1644-7351<br>-</li>
+                <li>평일 오전 10:00 ~ 오후 5:00 / 점심시간 오후 12:00 ~ 오후 1:00</li>
+                <li>토 / 일 / 공휴일 휴무</li>
+              </ul>
+            </div>
+            <!-- Middle-Tel -->
+
+            <!-- Middle-Info -->
+            <div class="middle-info">
+              <ul>
+                <li>ACCOUNT INFO</li>
+                <li>농협 301.0109.5875.91</li>
+                <li>신한 100.028.308020</li>
+                <li>국민 347837.04.005991</li>
+                <li>예금주: (주)플라이모델</li>
+              </ul>
+            </div>
+            <!-- Middle-Info -->
+
+            <!-- Middle-Menu -->
+            <div class="middle-menu">
+              <ul>
+                <li>FAVORITE MENU</li>
+                <li><a href="#">로그인</a> / <a href="#">회원가입</a></li>
+                <li><a href="#">관심상품</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">주문조회</a></li>
+                <li><a href="#">마이페이지</a></li>
+              </ul>
+            </div>
+            <!-- Middle-Menu -->
+
+            <!-- Middle-Return -->
+            <div class="middle-return">
+              <ul>
+                <li>RETURN / EXCHANGE</li>
+                <li>서울시 종로구 종로6 광화문우체국 소포실 (플라이모델)<br>
+                    자세한 교환·반품절차 안내는 문의란 및 공지사항을 참고해주세요</li>
+              </ul>
+            </div>
+            <!-- Middle-Return -->
+
+          </div>
+          <!-- Container -->
+
+        </div>
+        <!-- Footer Middle -->
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+
+          <!-- Container -->
+          <div class="container">
+
+            <!-- Bottom-Left -->
+            <div class="bottom-left">
+              <ul>
+                <li>COMPANY : (주)플라이모델</li>
+                <li>OWNER : 김상아 BUSINESS</li>
+                <li>LICENSE : 201-86-27722 MALL-ORDER</li>
+                <li>LICENSE : 제2016-서울성동-00423호</li>
+              </ul>
+              <ul>
+                <li>ADDRESS : 133110 서울특별시 성동구 성수동1가 656-294 3층</li>
+                <li>TEL : 1644-7351</li>
+              </ul>
+              <ul>
+                <li>CPO : 김상래 (flymodel_1@naver.com)</li>
+                <li>CONTACT US : flymodel_1@naver.com</li>
+              </ul>
+              <ul>
+                <li>COPYRIGHT © (주)플라이모델 ALL RIGHTS RESERVED.</li>
+                <li>HOSTING By CAFE24 | DESIGNED By DFLOOR</li>
+              </ul>
+            </div>
+            <!-- Bottom-Left -->
+
+            <!-- Bottom-Right -->
+            <div class="bottom-right">
+              <ul>
+              </ul>
+            </div>
+            <!-- Bottom-Right -->
+
+          </div>
+          <!-- Container -->
+
+        </div>
+        <!-- Footer Bottom -->
+
+
+    </div>
+    <!-- Footer -->
+
+  </div>
+
+  <!-- Wrap -->
+</body>
+</html>
